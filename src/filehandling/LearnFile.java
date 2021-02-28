@@ -12,8 +12,9 @@ public class LearnFile {
 		String path = "C:\\Users\\YOGESH RANA\\Desktop\\DevLab Training\\SDET-Java1.txt";
 		path = "C:/Users/YOGESH RANA";
 
+		System.out.println("File Learning");
+		
 		File f = new File("test.txt");
-
 		if (f.exists())
 			System.out.println("File ALready Exists");
 		else {
